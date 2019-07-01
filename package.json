@@ -3,12 +3,24 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": {
+    "name": "Cesar Bretana Gonzalez",
+    "email": "bretanac@gmail.com",
+    "url": "https://github.com/bretanac93"
+  },
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  },
   "dependencies": {
     "indicative": "^5.0.8"
   },
+  "readme": "https://github.com/lengoo/validator#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "mocha": "^6.1.4",
+    "should": "^13.2.3"
   }
 }
